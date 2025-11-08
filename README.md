@@ -74,29 +74,29 @@ Share us a :star: if you're interested in this repo. We will continue to track r
 ![Alt Text](fig/overall.png)
 ---
 ## 📖 Table of Contents
-- [💻 From State Space Model to Vision-Mamba](## 💻 From State Space Model to Vision-Mamba)
-  - [Preliminary of SSM](### Preliminary of SSM)
-  - [SSMs for Sequential Modeling](### SSMs for Sequential Modeling)
-  - [SSMs for Vision (Vision-Mamba)](### SSMs for Vision (Vision-Mamba))
-- [🛰️ SSMs in Remote Sensing Tasks](## 🛰️ SSMs in Remote Sensing Tasks)
-  - [Remote Sensing Image Classification](#### Table 1. Introduction of typical SSM works in remote sensing)
-  - [Remote Sensing Image Segmentation](### 3.2 Remote Sensing Image Segmentation)
-  - [Remote Sensing Object Detection](#33-remote-sensing-object-detection)
-  - [Change Detection](#34-change-detection)
-  - [Super Resolution](#35-super-resolution)
-  - [Denoising & Dehazing / Recovery](#36-denoising--dehazing--recovery)
-  - [Pan-sharpening](#37-pan-sharpening)
-  - [Other Applications (e.g., Meteorological Downscaling)](#38-other-applications-eg-meteorological-downscaling)
-- [🖊️ Key Technological Advancements in Remote Sensing SSMs](#4-key-technological-advancements-in-remote-sensing-ssms)
-  - [Scanning Strategies for Multi-Modal Remote Sensing Data](#41-scanning-strategies-for-multi-modal-remote-sensing-data)
-  - [High-level Framework Configurations](#42-high-level-framework-configurations)
-  - [Hybrid Architecture Designment](#43-hybrid-architecture-designment)
-  - [Fundamental Component Refinement](#44-fundamental-component-refinement)
-  - [Feature Fusion of Multi-Modal Remote Sensing Data](#45-feature-fusion-of-multi-modal-remote-sensing-data)
-  - [Gated Redundancy Removal](#46-gated-redundancy-removal)
-- [💪Challenges and Opportunities](#5-challenges-and-opportunities)
-- [🐲Conclusion](#6-conclusion)
-## 💻 From State Space Model to Vision-Mamba
+- [💻 From State Space Model to Vision-Mamba](#methods-a-survey)
+  - [Preliminary of SSM](#preliminary-of-ssm)
+  - [SSMs for Sequential Modeling](#ssms-for-sequential-modeling)
+  - [SSMs for Vision (Vision-Mamba)](#ssms-for-vision-vision-mamba)
+- [🛰️ SSMs in Remote Sensing Tasks](#section-three)
+  - [Remote Sensing Image Classification](#remote-sensing-image-classification)
+  - [Remote Sensing Image Segmentation](#remote-sensing-image-segmentation)
+  - [Remote Sensing Object Detection](#remote-sensing-object-detection)
+  - [Remote Sensing Change Detection](#remote-sensing-change-detection)
+  - [Remote Sensing Super Resolution](#remote-sensing-super-resolution)
+  - [Remote Sensing Denoising & Dehazing / Recovery](#remote-sensing-denoising-and-dehazing)
+  - [Remote Sensing Pan-sharpening](#remote-sensing-pan-sharpening)
+  - [Other Applications (e.g., Meteorological Downscaling)](#others)
+- [🖊️ Key Technological Advancements in Remote Sensing SSMs](#section-four)
+  - [Scanning Strategies for Multi-Modal Remote Sensing Data](#scanning-strategies-for-multi-modal-remote-sensing-data)
+  - [High-level Framework Configurations](#high-level-framework-configurations)
+  - [Hybrid Architecture Designment](#hybrid-architecture-designment)
+  - [Fundamental Component Refinement](#fundamental-component-refinement)
+  - [Feature Fusion of Multi-Modal Remote Sensing Data](#feature-fusion-of-multi-modal-remote-sensing-data)
+  - [Gated Redundancy Removal](#gated-redundancy-removal)
+- [💪Challenges and Opportunities](#section-five)
+- [🐲Conclusion](#section-six)
+## 💻 From State Space Model to Vision-Mamba <a id="methods-a-survey"></a>
 
 ### Preliminary of SSM
 
@@ -112,7 +112,7 @@ Share us a :star: if you're interested in this repo. We will continue to track r
 
 ---
 
-## 🛰️ SSMs in Remote Sensing Tasks
+## 🛰️ SSMs in Remote Sensing Tasks<a id="section-three"></a>
 
 ### Remote Sensing Image Classification
 
@@ -190,7 +190,7 @@ Share us a :star: if you're interested in this repo. We will continue to track r
 | WaveMamba | 97.90 | 98.72 | 100.00 | 98.39 | 99.67 | 93.82 | 87.85 | 97.42 | 91.69 | 98.20 | 96.27 | 98.70 | 82.90 | 99.53 | 100.00 | 96.39 | 96.07 | 96.10 | [paper](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhu_WaveMamba_Wavelet-Driven_Mamba_Fusion_for_RGB-Infrared_Object_Detection_ICCV_2025_paper.pdf) | [code](https://github.com/AlexZou14/Wave-Mamba) |
 | MamTrans | 82.70 | 100.00 | 98.61 | 99.81 | 100.00 | 95.80 | 87.59 | 95.44 | 83.95 | 91.99 | 97.53 | 90.01 | 84.91 | 100.00 | 100.00 | 93.41 | 93.89 | 92.84 | [paper](https://www.researchgate.net/publication/383334767_State_space_models_meet_transformers_for_hyperspectral_image_classification)                        | [code](https://github.com/PPPPPsanG/MamTrans) |
 
-### 3.2 Remote Sensing Image Segmentation
+### Remote Sensing Image Segmentation
 
 #### Table 4. Semantic Segmentation on LoveDA
 | Method | background | building | road | water | barren | forest | agriculture | MIoU |
@@ -206,11 +206,11 @@ Share us a :star: if you're interested in this repo. We will continue to track r
 | SctNet-s | 38.17 | 46.06 | 51.06 | 75.70 | 18.50 | 42.19 | 54.44 | 47.02 |
 | SctNet-b | 43.37 | 52.17 | 50.51 | 75.71 | 18.15 | 43.21 | 52.97 | 47.73 |
 
-### 3.3 Remote Sensing Object Detection
+### Remote Sensing Object Detection
 
 > (Add a short paragraph if needed. Tables/metrics can be added later if required.)
 
-### 3.4 Change Detection
+### Remote Sensing Change Detection
 
 #### Table 5. Change Detection on WHU / LEVIR / LEVIR+
 | Method | WHU F1 | WHU IoU | WHU OA(%) | LEVIR F1 | LEVIR IoU | LEVIR OA(%) | LEVIR+ F1 | LEVIR+ IoU | LEVIR+ OA(%) |
@@ -224,25 +224,25 @@ Share us a :star: if you're interested in this repo. We will continue to track r
 | CDMamba | 93.76 | 88.26 | 99.51 | 90.75 | 83.07 | 99.06 | 83.01 | 70.95 | 98.65 |
 | M-CD | 95.30 | 91.10 | 99.60 | 92.10 | 85.00 | 99.20 | - | - | - |
 
-### 3.5 Super Resolution
+### Remote Sensing Super Resolution
 
 > (Representative SSM-based SR models and datasets; add tables as needed.)
 
-### 3.6 Denoising & Dehazing / Recovery
+### Remote Sensing Denoising and Dehazing
 
 > (Representative SSM-based reconstruction/denoising models in RS.)
 
-### 3.7 Pan-sharpening
+### Remote Sensing Pan-sharpening
 
 > (Representative SSM-based pan-sharpening models.)
 
-### 3.8 Other Applications (e.g., Meteorological Downscaling)
+### Others
 
 > (e.g., MambaDS for downscaling, etc.)
 
 ---
 
-## 🖊️ Key Technological Advancements in Remote Sensing SSMs
+## 🖊️ Key Technological Advancements in Remote Sensing SSMs <a id="section-four"></a>
 
 ### Scanning Strategies for Multi-Modal Remote Sensing Data
 
@@ -273,13 +273,13 @@ Share us a :star: if you're interested in this repo. We will continue to track r
 
 ---
 
-## 💪Challenges and Opportunities
+## 💪Challenges and Opportunities<a id="section-five"></a>
 
 > (Data scarcity/imbalance, temporal length & scalability, multimodality alignment, evaluation protocols.)
 
 ---
 
-## 🐲Conclusion
+## 🐲Conclusion<a id="section-six"></a>
 
 > (Brief wrap-up and outlook.)
 
@@ -337,3 +337,5 @@ Share us a :star: if you're interested in this repo. We will continue to track r
 
 ## ⏱️ Log
 📅 2025 11 05. We created this github and filled it with the framework and some of the paper charts
+
+📅 2025 11 08. WWe have fixed the issue where the directory could not be redirected normally
