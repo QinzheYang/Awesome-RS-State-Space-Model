@@ -25,7 +25,7 @@
   </p>
 
   <p align="center">
-   <a href=''>
+   <a href='https://www.sciengine.com/cfs/files/pdfs/view/1674-733X/6E3CAFCF2A464C9BBC0BE785B15D8300-mark.pdf'>
       <img src='https://img.shields.io/badge/Science_China_Information_Sciences-PDF-blue?style=flat' alt='SCIS PDF'>
     </a>
   <a href="#"><img src="https://img.shields.io/badge/Topic-Remote%20Sensing%20%7C%20SSM%20%7C%20Mamba-9cf" alt="topic"></a>
@@ -38,7 +38,7 @@
 
 ---
 
-This review covers nearly **400 works** from **the start of the first paper on SSM in remote sensing to October 27, 2025**, encompassing a total of **22** months. We systematically organize the information from two perspectives: the **8** categories of remote sensing tasks (Classification, Segmentation, Object Detection, Change Detection, Super Resolution, Denoising and Dehazing, and Pan-Sharpening) and the **7** methods for RS-SSM structural design (Scanning Strategies, High-level Framework, Hybrid Architecture Design, and Fundamental Component Refinement, etc). Within each subcategory, we further classify the works in **finer detail and analyze various design ideas, techniques, advantages, and disadvantages**. Our paper is currently **under revision for SCIS**, and since arXiv does not accept papers that have not yet completed the review process, we will update **all content** on GitHub and publicly share the **paper and process records** after the paper is accepted.
+This review covers nearly **400 works** from **the start of the first paper on SSM in remote sensing to October 27, 2025**, encompassing a total of **22** months. We systematically organize the information from two perspectives: the **8** categories of remote sensing tasks (Classification, Segmentation, Object Detection, Change Detection, Super Resolution, Denoising and Dehazing, and Pan-Sharpening) and the **7** methods for RS-SSM structural design (Scanning Strategies, High-level Framework, Hybrid Architecture Design, and Fundamental Component Refinement, etc). Within each subcategory, we further classify the works in **finer detail and analyze various design ideas, techniques, advantages, and disadvantages**. Our paper is published currently in **SCIENCE CHINA Information Sciences (2026) **, you can download the PDF in [https://www.sciengine.com/SCIS/doi/10.1007/s11432-025-4780-1](https://www.sciengine.com/cfs/files/pdfs/view/1674-733X/6E3CAFCF2A464C9BBC0BE785B15D8300-mark.pdf).
 
 
 ### :star: Share us a :star:
