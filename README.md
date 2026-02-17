@@ -39,6 +39,19 @@
 ---
 This is the github for the paper **State Space Models Meet Remote Sensing: A Survey**.
 
+#### Citation
+```python
+@article{:/publisher/Science China Press/journal/SCIENCE CHINA Information Sciences///10.1007/s11432-025-4780-1,
+  author = "Yang Qinzhe,Liu Chenyang,Xu Jia,Shi Zhenwei,Zou Zhengxia",
+  title = "State Space Models Meet Remote Sensing: A Survey",
+  journal = "SCIENCE CHINA Information Sciences",
+  year = "2026",
+ pages = "-",
+  url = "http://www.sciengine.com/publisher/Science China Press/journal/SCIENCE CHINA Information Sciences///10.1007/s11432-025-4780-1,
+  doi = "https://doi.org/10.1007/s11432-025-4780-1"
+}
+```
+
 This review covers nearly **400 works** from **the start of the first paper on SSM in remote sensing to October 27, 2025**, encompassing a total of **22** months. We systematically organize the information from two perspectives: the **8** categories of remote sensing tasks (Classification, Segmentation, Object Detection, Change Detection, Super Resolution, Denoising and Dehazing, and Pan-Sharpening) and the **7** methods for RS-SSM structural design (Scanning Strategies, High-level Framework, Hybrid Architecture Design, and Fundamental Component Refinement, etc). Within each subcategory, we further classify the works in **finer detail and analyze various design ideas, techniques, advantages, and disadvantages**. Our paper is published currently in **SCIENCE CHINA Information Sciences (2026)**, you can download the PDF paper in [https://www.sciengine.com/SCIS/doi/10.1007/s11432-025-4780-1](https://www.sciengine.com/cfs/files/pdfs/view/1674-733X/6E3CAFCF2A464C9BBC0BE785B15D8300-mark.pdf).
 
 
