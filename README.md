@@ -25,7 +25,7 @@
   </p>
 
   <p align="center">
-   <a href='https://www.sciengine.com/cfs/files/pdfs/view/1674-733X/6E3CAFCF2A464C9BBC0BE785B15D8300-mark.pdf'>
+   <a href='https://www.sciengine.com/SCIS/doi/10.1007/s11432-025-4780-1'>
       <img src='https://img.shields.io/badge/Science_China_Information_Sciences-PDF-blue?style=flat' alt='SCIS PDF'>
     </a>
   <a href="#"><img src="https://img.shields.io/badge/Topic-Remote%20Sensing%20%7C%20SSM%20%7C%20Mamba-9cf" alt="topic"></a>
